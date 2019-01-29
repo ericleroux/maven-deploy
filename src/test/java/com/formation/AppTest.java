@@ -9,7 +9,7 @@ public class AppTest {
 	@Test
 	public void testLength() {
 		Assert.assertEquals(64, App.sha256hex(INPUT).length());
-		System.out.println("Hello changement");
+		System.out.println("Hello changement again");
 	}
 
 	@Test
